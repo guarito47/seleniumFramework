@@ -15,6 +15,7 @@ public class LandingPage extends ReusableComponent {
         this.driver= driver;
         PageFactory.initElements(driver, this);
         System.out.println("change from gitSpace running");
+
     }
 
     // PageFactory : we can simplify the code like this
