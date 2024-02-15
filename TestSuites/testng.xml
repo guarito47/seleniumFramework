@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--property parallel =test makes start's a browser for each test label at the same time
+parallel= method, starts a browser for each method x each class running at the same time
+    thread count is the maximum of methods/browsers at the same time can run -->
+<suite parallel="tests" name="All Test Suite">
+<!--    to use the listerner created we add this as property bellow to suite-->
+    <listeners>
+        <listener class-name="bitconsulting.TestComponents.ReportListeners"></listener>
+    </listeners>
+    <test thread-count="5" name="Submit Order Tests">
+        <classes>
+            <class name="bitconsulting.Test.SubmitOrderTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Error Validations Test">
+        <classes>
+            <class name="bitconsulting.Test.ErrorValidationsTest"/>
+        </classes>
+    </test>
+
+</suite>

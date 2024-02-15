@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="All Test Suite">
+
+<!--    we want to run just the methods within group errorhandling label-->
+    <groups>
+        <run>
+            <include name="errorHandling"/>
+        </run>
+    </groups>
+    <test thread-count="5" name="Submit Order Tests">
+        <classes>
+            <class name="bitconsulting.Test.SubmitOrderTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Error Validations Test">
+        <classes>
+            <class name="bitconsulting.Test.ErrorValidationsTest"/>
+        </classes>
+    </test>
+
+</suite>
