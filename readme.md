@@ -1,4 +1,4 @@
-# Selenium course Project, a complete test automation for shoping website
+# Selenium course Project, a complete test automation for shopping website
 * This project belongs to udemy bestseller course "Selenium WebDriver with Java -Basics to Advanced+Frameworks"
 complete automation test cases, from create user account, login into website, add producto to cart , make a checkout and verify your order was placed
 
