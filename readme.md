@@ -1,16 +1,14 @@
-# Selenium course Project, a complete test automation for shopping website
-* This project belongs to udemy bestseller course "Selenium WebDriver with Java -Basics to Advanced+Frameworks"
-complete automation test cases, from create user account, login into website, add producto to cart , make a checkout and verify your order was placed
+# API Framework for a complete test automation API 
+* This project belongs to a udemy bestseller course "Rest API Testing (Automation) Rest Assured Java" 
+* complete automation API test cases
 
-* written in Java with Selenium web driver
-* Data driven testing
-* Chrome devTools
+* written in Java with Java Rest Assured  
 * TestNG
-* Maven
-* Extent Reports
-* Jenkins 
 * Cucumber
-* Github Copilot
-* Selenium Grid
-* AutoIT
-* Functional testing
+* GraphQL
+* Apache POI (excel)
+* Jira API
+* OAUTH2
+* POJO classes
+* Maven
+* and more friends
